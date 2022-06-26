@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 20px 20px hsl(245, 75%, 52%, 15%);
+    width: 375px;
+}
+
+main img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+main h1 {
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: hsl(223, 47%, 23%);
+}
+
+main p {
+    font-weight: 500;
+    line-height: 25px;
+    padding: 0 15%;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+}
+
+#plan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80%;
+    margin-left: 10%;
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 98%);
+    margin-bottom: 30px;
+}
+
+#plan h2 {
+    font-size: 1em;
+    font-weight: 900;
+    margin-bottom: -15px;
+    margin-top: 25px;
+    color:hsl(223, 47%, 23%)
+}
+
+#plan img {
+    width: 45px;
+    margin-left: 15%;
+}
+
+#plan #change {
+    margin-left: 5%;
+    font-weight: 700;
+    font-size: 0.9em;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#plan #change:hover {
+    color: rgba(120, 109, 236, 1);
+}
+
+#planName {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#planName p {
+    color:hsl(224, 23%, 55%);
+}
+
+.confirm {
+    background-color: hsl(245, 75%, 52%);
+    width: 80%;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    box-shadow: 0px 10px 10px hsl(245, 75%, 52%, 15%);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.9em;
+    font-weight:900;
+    cursor: pointer;
+}
+
+.confirm:hover {
+    background-color: rgba(120, 109, 236, 1);
+}
+
+.cancel {
+    background-color: white;
+    width: 80%;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 15px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.9em;
+    font-weight:900;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color:hsl(223, 47%, 23%);
+}
